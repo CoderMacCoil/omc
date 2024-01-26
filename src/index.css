@@ -3,15 +3,21 @@
 @tailwind utilities;
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Young Serif", serif;
+  background-color: "#416BBF";
+}
+
+.banner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .title-name {
-    	
-	
-    text-shadow: 0px 3px 0px #F2E088,
-             0px 14px 10px rgba(0,0,0,0.15),
-             0px 24px 2px rgba(0,0,0,0.1),
-             0px 34px 30px rgba(0,0,0,0.1);
+  text-shadow: 0px 3px 0px #f2e088, 0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
 }
