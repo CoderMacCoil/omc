@@ -17,6 +17,11 @@ export default {
         sans: ['Graphik', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
       },
+      dropShadow: {
+        '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
+        'ois': '2px 2px 0px #f2e088',
+        'hoverois': '2px 2px 1px #000'
+      }
     },
   },
   plugins: [],
