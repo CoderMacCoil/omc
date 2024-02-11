@@ -7,7 +7,7 @@ const Banner = () => {
         <motion.h1
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ ease: "easeInOut", duration: 2.9, delay: 0.2 }}
+          transition={{ ease: "easeInOut", duration: 1.5, delay: 0.2 }}
           className="title-name text-5xl lg:text-8xl text-secondary-dark text-center lg:text-right">
           Oisín McCole
         </motion.h1>
