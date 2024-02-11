@@ -11,17 +11,17 @@ function SocialMediaLinks() {
       <a
         href="https://www.youtube.com/channel/UCXahfYAcK7KLjtfJfLC2F3g?app=desktop"
         target="_blank">
-        <p className="gap-4 text-secondary-dark text-4xl drop-shadow-ois hover:drop-shadow-hoverois">
+        <p className="gap-4 text-secondary-dark text-3xl drop-shadow-ois hover:drop-shadow-hoverois">
           <FaYoutube />
         </p>
       </a>
       <a href="https://www.instagram.com/oisinmccolemusic/" target="_blank">
-        <p className="gap-4 text-secondary-dark text-4xl drop-shadow-ois hover:drop-shadow-hoverois">
+        <p className="gap-4 text-secondary-dark text-3xl drop-shadow-ois hover:drop-shadow-hoverois">
           <FaInstagram />
         </p>
       </a>
       <a href="https://www.patreon.com/OisinMcCole/posts" target="_blank">
-        <p className="gap-4 me-0 lg:me-16 text-secondary-dark text-4xl drop-shadow-ois hover:drop-shadow-hoverois">
+        <p className="gap-4 me-0 lg:me-16 text-secondary-dark text-3xl drop-shadow-ois hover:drop-shadow-hoverois">
           <FaPatreon />
         </p>
       </a>
