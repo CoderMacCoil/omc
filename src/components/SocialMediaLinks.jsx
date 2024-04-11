@@ -7,21 +7,29 @@ function SocialMediaLinks() {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ ease: "easeInOut", duration: 2.9, delay: 0.2 }}
-      className="links flex gap-4 justify-center lg:justify-end mt-8">
+      className="links flex gap-4 mt-4 justify-center lg:justify-end"
+    >
       <a
         href="https://www.youtube.com/channel/UCXahfYAcK7KLjtfJfLC2F3g?app=desktop"
-        target="_blank">
-        <p className="gap-4 text-secondary-dark text-3xl drop-shadow-ois hover:drop-shadow-hoverois">
+        target="_blank rel=noreferrer"
+      >
+        <p className=" text-secondary-dark text-3xl drop-shadow-ois hover:drop-shadow-hoverois">
           <FaYoutube />
         </p>
       </a>
-      <a href="https://www.instagram.com/oisinmccolemusic/" target="_blank">
-        <p className="gap-4 text-secondary-dark text-3xl drop-shadow-ois hover:drop-shadow-hoverois">
+      <a
+        href="https://www.instagram.com/oisinmccolemusic/"
+        target="_blank rel=noreferrer"
+      >
+        <p className="text-secondary-dark text-3xl drop-shadow-ois hover:drop-shadow-hoverois">
           <FaInstagram />
         </p>
       </a>
-      <a href="https://www.patreon.com/OisinMcCole/posts" target="_blank">
-        <p className="gap-4 me-0 lg:me-16 text-secondary-dark text-3xl drop-shadow-ois hover:drop-shadow-hoverois">
+      <a
+        href="https://www.patreon.com/OisinMcCole/posts"
+        target="_blank rel=noreferrer"
+      >
+        <p className="text-secondary-dark text-3xl drop-shadow-ois hover:drop-shadow-hoverois">
           <FaPatreon />
         </p>
       </a>
