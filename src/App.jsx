@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function App() {
   return (
     <main className="app">
-      <div className="background w-full h-dvh bg-[url('./assets/bg-desktop.jpg')]  bg-no-repeat bg-center bg-cover">
+      <div className="background w-full h-dvh bg-[url('/assets/bg-desktop.jpg')]  bg-no-repeat bg-center bg-cover">
         <div className="banner-content p-16">
           <Banner />
           <motion.hr
