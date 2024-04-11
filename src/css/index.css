@@ -9,5 +9,5 @@ body {
 }
 
 .background {
-  background-image: url("../public/bg-desktop.jpg");
+  background-image: url("./bg-desktop.jpg");
 }
