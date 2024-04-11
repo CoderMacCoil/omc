@@ -7,3 +7,7 @@ body {
   padding: 0;
   font-family: "Young Serif", serif;
 }
+
+.background {
+  background-image: url("../public/bg-desktop.jpg");
+}
