@@ -22,7 +22,7 @@ const Button = ({ text }) => {
         className="p-4 my-8 rounded-r-full rounded-tl-full bg-secondary-dark drop-shadow-ois hover:drop-shadow-hoverois text-secondary-light active:translate-y-1 active:drop-shadow-hoverois"
         onClick={showModal ? closeModal : openModal}
       >
-        {showModal ? "Actually maybe not!" : text}
+        {showModal ? "Nice" : text}
       </motion.button>
       {showModal && <Modal onClose={closeModal} />}
     </>
