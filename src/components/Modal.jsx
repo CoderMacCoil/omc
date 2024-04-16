@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import axios from 'axios';
 
 const Modal = ({ onClose }) => {
   const [formData, setFormData] = useState({
@@ -13,13 +14,20 @@ const Modal = ({ onClose }) => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send data to backend)
-    // You can add your logic here
-    console.log(formData);
-    // Close the modal after form submission
-    onClose();
+    try {
+      // Send form data to backend server
+      const response = await axios.post('http://localhost:3000/submit-form', formData, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      console.log(response.data); // Log response from server
+      onClose(); // Close the modal after form submission
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
   };
 
   return (
